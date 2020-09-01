@@ -14,7 +14,6 @@ class Board {
 
     public:
         Board(int width, int height, int bombs);
-        Field& getField(int x, int y);
         int getRandomInt(int minValue, int maxValue);
         int printBoard(bool reveal = false, int x = 0, int y = 0);
         int selectField(int x, int y);

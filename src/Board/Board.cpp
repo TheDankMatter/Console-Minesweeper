@@ -39,9 +39,6 @@ void Board::generateBombsSet() {
     }
 }
 
-Field& Board::getField(int x, int y) {
-    return board.at(y).at(x);
-}
 
 void Board::flagField(int x, int y) {
     if (board.at(y).at(x).isHidden()) {

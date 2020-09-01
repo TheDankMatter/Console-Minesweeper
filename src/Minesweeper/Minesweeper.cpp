@@ -51,9 +51,9 @@ void Minesweeper::gameLoop() {
 
             char *token;
             int x, y;
+
             //First argument
             token = strtok(line, " ");
-
             std::string argument(line);
 
             if (argument.compare("exit") == 0) {
