@@ -7,7 +7,6 @@ Field::Field() {
     bomb = false;
 }
 
-
 bool Field::isHidden() {
     return hidden;
 }

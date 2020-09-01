@@ -39,7 +39,6 @@ void Board::generateBombsSet() {
     }
 }
 
-
 void Board::flagField(int x, int y) {
     if (board.at(y).at(x).isHidden()) {
         if (board.at(y).at(x).isFlag()) {
