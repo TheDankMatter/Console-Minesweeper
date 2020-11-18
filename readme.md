@@ -1,4 +1,4 @@
-# Console Minesweeper written in Cpp
+# Console Minesweeper in C++
 
 ![alt text](https://raw.githubusercontent.com/TheDankMatter/Console-Minesweeper/master/images/Gameplay.JPG)
 
